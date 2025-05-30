@@ -216,7 +216,7 @@ function Inventory() {
                       <ProductImage src={prod.image} alt={prod.name} />
                     )}
                   </Td>
-                  <Td>{prod.price}</Td>
+                  <Td>₱{prod.price}</Td>
                   <Td style={{ textTransform: 'capitalize' }}>{prod.type}</Td>
                   <Td>{prod.quantity}</Td>
                   <Td>

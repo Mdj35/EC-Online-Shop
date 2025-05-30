@@ -53,7 +53,6 @@ export default function Sidebar() {
       <Nav>
         <Link to="/">Dashboard</Link>
         <Link to="/inventory">Inventory</Link>
-        <Link to="/sales">Sales</Link>
         <Link to="/purchases">Purchases</Link>
       </Nav>
     </Aside>

@@ -4,10 +4,11 @@ import GlobalStyle from './GlobalStyle';
 import Dashboard from './Dashboard';
 import Home from './Pages/Home';
 import Inventory from './Pages/Inventory';
+import Checkout from './Pages/Checkout';
+import Purchases from './Pages/Purchases';
 
 // Dummy components for routes (replace with your actual components)
 const Sales = () => <div>Sales Page</div>;
-const Purchases = () => <div>Purchases Page</div>;
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/home" element={<Home />} />
           <Route path="/inventory" element={<Inventory />} />
+          <Route path="/purchases" element={<Purchases />} />
+          <Route path="/checkout" element={<Checkout />} />
           <Route path="/purchases" element={<Purchases />} />
         </Routes>
       </Router>
