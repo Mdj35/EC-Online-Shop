@@ -47,7 +47,7 @@ function LoadingSpinner() {
   );
 }
 
-const API_URL = 'https://vynceianoani.helioho.st/ecos/products.php';
+const API_URL = 'https://databases.free.nf/products.php?i=1';
 
 function Inventory() {
   const [products, setProducts] = useState([]);
