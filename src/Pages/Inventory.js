@@ -47,7 +47,7 @@ function LoadingSpinner() {
   );
 }
 
-const API_URL = 'https://databases.free.nf/products.php?i=1';
+const API_URL = 'https://databases.free.nf/products.php';
 
 function Inventory() {
   const [products, setProducts] = useState([]);
